@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spreezy | Water Tank Cleaning Services | India </title>
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon_io4/favicon.ico">
     <script src="https://kit.fontawesome.com/0ec71fc9be.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -21,18 +21,128 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="inquiry.html"><i class="fa-solid fa-angles-right"></i></a></li>
+                <li id="lg-arrow"><a href="inquiry.html"><i class="fa-solid fa-angles-right"></i></a></li>  <!-- lg-arrow is added to remove arrow icon in responsive view from navbar-->
+                <a href="#" id="close"style="text-decoration: none; color:#1a1a1a;"><i class="fa-solid fa-xmark"></i></a>
             </ul>
+        </div>
+        <div id="mobile">
+            <a href="inquiry.html" style="text-decoration: none; color:#1a1a1a;"><i class="fa-solid fa-angles-right"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
         </div>
     </section>
 
     <section id="hero">
         <h4>A Clean That Can Be Seen</h4>
-        <h2>Best Water Tank </h2>
-        <h1>Cleaning Services</h1>
+        <h2>The Best Water Tank </h2>
+        <h1 style="color:#222;" >Cleaning Services</h1>
+        <h1>Now in Pune</h1>
         <p>Get quick service with our expert team</p> 
         <button><i class="fa-solid fa-phone"></i> Call Now</button>
     </section>
+
+    <section id="features" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/worker.png" alt="">
+            <h6> Trained & Experienced Staff </h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/quality.png" alt="">
+            <h6> Quality Cleaning Equipments</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/affordable.png" alt="">
+            <h6> Affordable Prices </h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/ecofriendly.png" alt="">
+            <h6> Eco Friendly Work </h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/time.png" alt="">
+            <h6> 12/7 Support </h6>
+        </div>
+        
+    </section>
+
+    <section id="products">
+        <h2 style="text-align:center;">We clean</h2>
+        <p style="text-align:center;">Spreezy Water Tank Cleaning Services</p>
+        <div id="procontainer">
+            <div class="pro">
+                <img src="img/pro/steelwatertank.jpg">
+                <h4>Steel Water Tanks</h4>
+            </div>
+            <div class="pro">
+                <img src="img/pro/overhead.jpg">
+                <h4>Overhead Water Tanks</h4>
+            </div>
+            <div class="pro">
+                <img src="img/pro/agriculture.jpg">
+                <h4>Agricultural Storage Tanks</h4>
+            </div>
+            <div class="pro">
+                <img src="img/pro/vertical.jpg">
+                <h4>Vertical Tanks</h4>
+            </div>
+            <div class="pro">
+                <img src="img/pro/underground.jpg">
+                <h4>Underground Water Tanks</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="form" style="margin-top:5px;">
+        <div id="for">
+            <img src="img/form/formimg.png" id="formimg" style="height:100px ;width: 100px;">
+            <h2 style="margin-left:20%  ;">Enquire Now</h2>
+            <div id="formCont">    
+                <label for="uname"><b>Name</b></label>
+                <input type="text" name="uname" placeholder="Enter Your Name" required>
+                <label for="uphoneno"><b>Phone Number</b></label>            
+                <input type="number" name="uphoneno" placeholder="Enter Phone Number" required >
+                <label for="uaddress"><b>Address</b></label>            
+                <input type="text" name="uaddress" placeholder="Enter Address" required>
+                <button type="submit">Log In</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="foo">
+        <div class="col">
+            <img class="logo" src="img/sp.png" alt="logo - spreezy"  height="40" width="120">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Aadarshnagar Matoshri Colony Dighi,Pune 15</p>
+            <p><strong>Phone: </strong> 8989898989</p>
+            <p><strong>Email: </strong> spreezy24@gmail.com</p>
+            <p><strong>Hrs: </strong>8:00-20:00 Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg">
+                <img src="img/pay/play.jpg">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyrights ©️ 2022 Spreezy Water Tank Cleaning Services</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
