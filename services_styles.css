@@ -1,0 +1,17 @@
+#body #bdimg{
+    width: auto;
+    margin: 20px 12.5%;
+    padding: 20px;
+    background-color: #eafaf5;
+}
+.serv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 5%;
+}
+
+.text{
+    width: 40%;
+    margin: 2% 2%;
+}

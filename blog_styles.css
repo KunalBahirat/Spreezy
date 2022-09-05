@@ -1,0 +1,20 @@
+
+#body #bdimg{
+    width: auto;
+    margin: 20px 12.5%;
+    padding: 20px;
+    background-color: #eafaf5;
+    /* position: relative; */
+}
+#blo{
+    padding: 3%;
+}
+h4{
+    padding: 1.5%;
+}
+p{
+    padding:0.2%
+}
+li{
+    padding: 0.2%;
+}

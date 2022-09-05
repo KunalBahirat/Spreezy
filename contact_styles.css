@@ -1,0 +1,56 @@
+#bd-image{
+    height: auto;
+    width: 100%;
+}
+#contactbannerimg{
+    margin: 0 7%;
+}
+#form{
+    display: flex;
+    height: 800px;
+    width: 95%;
+    margin: 0 2.5%;
+    background-color: #f7f7f7;
+}
+#contact-form{
+    float: left;
+    background-color: #F7F7F7;
+    height: 600px;
+    margin-top: 5%;
+    width:50%;
+    padding: 5px;
+}
+#map-pune{
+    height: 350px;
+    margin-top: 110px;
+    margin-left: 45%;
+    width: 350px;
+}
+#body #form #img-div p{
+    text-align: center;
+    margin-left: 100px;
+}
+#contact-form input[type=text],input[type=number],input[type=email]{
+    width: 95%;
+    padding: 8px 5px;
+    margin: 8px 0;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+textarea{
+    margin: 8px 15px;
+    padding: 8px 20px;
+}
+#contact-form h4{
+    margin: 30px 60px;
+}
+#contact-form button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin :10px 35%;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+}
